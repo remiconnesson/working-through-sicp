@@ -92,5 +92,10 @@ Let's try HiPhish/guile.vim
 ...Alright, that does the trick with `.scm` files
 
 ---
+Pomodoro n°7 -- reading introduction of Little Schemer
 
+up to the Law of Car.
+> The primitive `car` is defined only for non-empty lists.
+
+---
 

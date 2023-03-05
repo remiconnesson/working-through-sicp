@@ -98,4 +98,10 @@ up to the Law of Car.
 > The primitive `car` is defined only for non-empty lists.
 
 ---
+Pomodoro n° 8 -- reading foreword and prefaces of SICP
+
+very interesting, I'll want to re-read those.
+I liked the comparisons of LISP with Chess and can't wait to see it with my own eyes.
+
+
 

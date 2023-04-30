@@ -10,3 +10,6 @@ That's great.
 Also it seems racket is more powerful than I perceived initially.
 People say it's like a language to program languages. I don't quite get it but we will see, maybe?
 
+---
+
+video advice about "structural editing" : https://www.youtube.com/watch?v=JB26uX225L4

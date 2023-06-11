@@ -1,0 +1,41 @@
+#lang sicp
+
+(define (largest a b c)
+  (cond ((and (> a b) (> a c)) a)
+        ((and (> b a) (> b c)) b)
+        (else c)))
+
+(largest 10 20 30)
+(largest 10 20 -30)
+
+(define (smallest a b c)
+  (cond ((and (< a b) (< a c)) a)
+        ((and (< b a) (< b c)) b)
+        (else c)))
+
+(smallest 10 20 30)
+(smallest 10 20 -30)
+
+(define (middle a b c)
+  (define s (smallest a b c))
+  (define l (largest a b c))
+  (cond ((and (> a s) (< a l)) a)
+        ((and (> b s) (< b l)) b)
+        (else c)))
+
+(middle 10 20 30)
+(middle 10 20 -30)
+
+(define (square a)
+  (* a a))
+
+(define (SS-middle-largest a b c)
+  (+ (square (largest a b c))
+     (square (middle a b c))))
+
+
+(SS-middle-largest 10 20 30)
+(SS-middle-largest 10 20 -30)
+
+(SS-middle-largest -1 0 1)
+(SS-middle-largest 1 2 3)
